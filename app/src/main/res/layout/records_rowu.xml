@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+   android:gravity="end"
+        android:elevation="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/journal_row_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gina"
+            android:textSize="4dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:padding="3dp"
+            android:gravity="start"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!--<TextView-->
+        <!--android:id="@+id/titleshw"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp"-->
+        <!--android:text="Tiltle"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold" />-->
+
+
+        <TextView
+            android:id="@+id/venueshw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="15dp"
+            android:text="Thoughts...."
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/dateshw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textStyle="italic"
+
+                />
+
+            <TextView
+                android:id="@+id/priceshw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date created"
+                android:gravity="right"
+                android:textStyle="italic"
+
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

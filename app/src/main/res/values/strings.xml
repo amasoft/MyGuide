@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyGuide</string>
+    <string name="db_Drop">DROP TABLE IF EXIST</string>
+    <string name="VieAllRecords">VieAllRecords</string>
+    <string name="ViewTodaysrecord">TodaysRecord</string>
+    <string name="margins">20dp</string>
+</resources>
